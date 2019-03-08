@@ -13,7 +13,7 @@ export default {
       msg: 'Welcome to Your Vue.js App',
       background: this.backgroundColor === '0' ? 'segmentGrey' : 'segmentDark',
       borderStyle: {
-        'border': '1px solid #d9d9d9'
+        'border': '2px solid #d9d9d9'
       },
       border: this.borderStatus === '1' ? 1 : 0
     }
@@ -44,13 +44,11 @@ a {
 }
 .segmentGrey {
   background-color: #f2f3f5;
-  padding: 5%;
   border-radius: 5px;
 }
 
 .segmentDark {
   background-color: white;
-  padding: 10%;
   border-radius: 5px;
 }
 
